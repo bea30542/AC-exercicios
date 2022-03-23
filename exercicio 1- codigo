@@ -1,0 +1,14 @@
+const int led = 6;
+void setup()
+{
+  pinMode(6, INPUT);
+  pinMode(6, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(6, HIGH);
+  delay(450); 
+  digitalWrite(6, LOW);
+  delay(450); 
+}
